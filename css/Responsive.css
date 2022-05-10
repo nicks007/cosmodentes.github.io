@@ -1,7 +1,206 @@
 /* @media  only  screen and (min-width:320px) and (max-width:330px){}
-
-@media only screen and (max-width:479px){}
  */
+@media only screen and (max-width:479px){
+
+
+
+/* 
+.locationText{
+border: 1px solid red;
+} */
+
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.55);
+    border-color: white;
+}
+
+.navbar-light:hover .navbar-toggler {
+    color: rgba(0,0,0,.55);
+    border-color:white;
+}
+
+#name{
+    color: #06A3DA;
+    font-size: 30px;
+    font-weight: 800; }
+
+
+.locationText h5{
+    margin-left: 10px;
+}
+
+.locationText p{
+    margin-left: 10px;
+}
+
+
+.Topbar-section{
+    background-color: #F8F8F8;
+    padding: 20px;
+    display: none;
+    }
+
+
+    .slide-data{
+        width:600px;
+        left: -8%;
+        height: 50vh;
+        top: 52%;
+        position: relative;
+    }
+
+    .slide-data h1{
+        text-transform: uppercase;
+        font-weight:800;
+       border: 1px solid none;
+        color: white;
+        line-height: 40px;
+        font-size:35px !important;
+        letter-spacing: 1px;
+    }
+
+
+    .tittle-tag{
+        background-color: #06A3DA;
+        font-weight: 800;
+        line-height: 50px;
+        color: white;
+        font-size: 16px;
+        letter-spacing: 1px;
+        padding: 10px;
+        text-transform: uppercase;
+        }
+
+         /* ====== 4 Item show ====== */
+
+         
+         .service-folder {
+            border: 1px solid none;
+            margin-top: 20px;
+            background-color: #eef7ff;
+        
+        }
+
+
+        .service-afters {
+            background-color: #0CB8B6;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            position: absolute;
+            top: 165px;
+            bottom: 0;
+            left: 38%; }
+
+
+            
+            .time-table{
+                background-color: #ededed;
+                padding: 20px;
+                margin-top: 15px;
+                            }
+
+                            .service-text h1 {
+                                font-size: 25px;
+                                text-align: center;
+                                font-weight: 800;
+                                text-transform: uppercase;
+                                letter-spacing: 1px;
+                                color: #F4572E; }
+
+
+
+
+
+  
+            /* ==== About section ===== */
+        
+            .about-section{
+                background-color: #ededed;
+                margin-top: 50px;
+                margin-bottom: 50px;
+               }
+
+               
+            .about-tag{
+                background-color: #06A3DA;
+                font-weight: 800;
+                color: white;
+                font-size: 16px;
+                line-height: 50px;
+                letter-spacing: 1px;
+                padding: 10px;
+                text-transform: uppercase;
+                
+                
+        }
+
+        .about-content{
+            padding: 10px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+
+        }
+
+        
+        .about-imgs{
+
+            background-image: url("../image/back1.jpg");
+            height: 300px;
+            background-size: cover;
+
+        }
+
+           /* ===== Service section ===== */
+                            
+           
+ .service-contents {
+    padding: 20px;
+    position: relative;
+    border: 1px solid none;
+    left:0%;
+    /* margin-left: 50px; */ }
+
+    
+    .service-box {
+        background-image: url("../image/dental.jpg");
+        padding: 50px;
+        background-size: cover;
+        height: 350px;
+
+         }
+
+         
+    /* ======  Service section part 2 === */
+   
+    
+    .wrapper{
+        width: 95%;
+           justify-content: space-between;
+         }
+
+ 
+           /* ===  Appointments ==== */
+      .appointment {
+        padding: 38px;
+        text-align: center;
+    }
+    
+    
+    .primary-btn1 {
+        margin-left: 20px;    
+      }
+
+      .items span{
+        position: relative;
+        left: 0;
+    }
+    
+
+          
+}
+
  @media only screen and (min-width:480px) and (max-width:639px){
 
 
@@ -45,7 +244,7 @@
             /* ====== 4 Item show ====== */
 
             .service-folder {
-                border: 1px solid red;
+                border: 1px solid none;
                 margin-top: 15px;
                 background-color: #eef7ff;
             
