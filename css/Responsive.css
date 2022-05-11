@@ -43,20 +43,30 @@ border: 1px solid red;
 
 
     .slide-data{
-        width:600px;
+        width:500px;
         left: -8%;
         height: 50vh;
         top: 52%;
         position: relative;
     }
 
+    .slides {
+        position: absolute;
+        width: 300%;
+        height: 90%;
+        top: 0;
+        left: 0;
+        transition: 2s ease;
+    }
+    
+
     .slide-data h1{
-        text-transform: uppercase;
+        text-transform: capitalize;
         font-weight:800;
        border: 1px solid none;
         color: white;
         line-height: 40px;
-        font-size:35px !important;
+        font-size:33px !important;
         letter-spacing: 1px;
     }
 
@@ -74,7 +84,39 @@ border: 1px solid red;
 
          /* ====== 4 Item show ====== */
 
-         
+           
+.boxx{
+    background-color: #12C5C3;
+    padding: 40px 40px;
+    position: relative;
+    top: -70px;
+}
+
+
+
+.boxx1{
+    background-color: #0CB8B6;
+    padding: 40px 40px;
+    position: relative;
+    top: -70px;
+}
+
+.boxx2{
+    background-color: #09ABA9;
+    padding: 40px 40px;
+    position: relative;
+    top: -70px;
+}
+
+
+.boxx3{
+    background-color: #029D9B;
+    padding: 40px 40px;
+    position: relative;
+    top: -70px;
+}
+ 
+            
          .service-folder {
             border: 1px solid none;
             margin-top: 20px;
@@ -91,7 +133,7 @@ border: 1px solid red;
             position: absolute;
             top: 165px;
             bottom: 0;
-            left: 38%; }
+            left: 36%; }
 
 
             
@@ -104,7 +146,7 @@ border: 1px solid red;
                             .service-text h1 {
                                 font-size: 25px;
                                 text-align: center;
-                                font-weight: 800;
+                                font-weight: 900;
                                 text-transform: uppercase;
                                 letter-spacing: 1px;
                                 color: #F4572E; }
@@ -136,6 +178,17 @@ border: 1px solid red;
                 
         }
 
+        .about-content h1{
+            font-weight: 800;
+           
+            font-size: 23px;
+            line-height: 30px;
+            letter-spacing: 1px;
+            padding: 10px;
+            text-transform: uppercase;
+
+        }
+
         .about-content{
             padding: 10px;
             margin-top: 30px;
@@ -151,6 +204,19 @@ border: 1px solid red;
             background-size: cover;
 
         }
+
+        
+        .about-content p{
+            text-transform: capitalize;
+            letter-spacing: 0.5px;
+            color: black;
+            font-family: serif;
+            opacity: 0.6;
+        }
+
+
+
+
 
            /* ===== Service section ===== */
                             
@@ -196,8 +262,32 @@ border: 1px solid red;
         position: relative;
         left: 0;
     }
+
+    
+    .tittle-content h2 {
+        font-size: 28px;
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        line-height:35px;
+        font-weight: 800; }
+
+        .tittle-content p {
+            color: #F4572E;
+            font-size: 18px;
+            font-weight: 800;
+            letter-spacing: 1px; }
     
 
+
+            .primary-btn1{
+                font-weight: 800;
+            }
+
+            #footers{
+                margin-left: -72px;
+                width: 370px;
+              }
+              
           
 }
 
@@ -348,6 +438,13 @@ background-size: cover;
 	flex: 100%;
 	background: #c31432;
 }
+
+#footers{
+    margin-left: 0px;
+  }
+  
+
+
 
 
     }

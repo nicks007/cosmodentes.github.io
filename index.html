@@ -7,18 +7,68 @@
     <meta name="viewport"content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
     <title>Cosmodente - Dental & cosmetic clinic</title>
 
+
+    
+
+<!-- Start of Async Drift Code -->
+<!-- <script>
+  "use strict";
+  
+  !function() {
+    var t = window.driftt = window.drift = window.driftt || [];
+    if (!t.init) {
+      if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+      t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+      t.factory = function(e) {
+        return function() {
+          var n = Array.prototype.slice.call(arguments);
+          return n.unshift(e), t.push(n), t;
+        };
+      }, t.methods.forEach(function(e) {
+        t[e] = t.factory(e);
+      }), t.load = function(t) {
+        var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+        var i = document.getElementsByTagName("script")[0];
+        i.parentNode.insertBefore(o, i);
+      };
+    }
+  }();
+  drift.SNIPPET_VERSION = '0.3.1';
+  drift.load('ncuyh525fye4');
+  </script>
+  <!-- End of Async Drift Code -->
+  
+  
+  
+  
+  
+  
+  
+
  
      	<!--boostrap css file-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/Responsive.css">
+
+
     
 
 </head>
 <body>
+
+   <!--====== Top Toggle bar ======-->
+
+   <a href="#" class="to-top">
+    <i class="fas fa-chevron-up"></i>
+  </a>
+
 
   <div class="Topbar-offers">
       <h3>Get 50% Off Diwali Dental Treatments </h3>
@@ -92,33 +142,37 @@
   <!-- Navigation Bar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light" id="dhiraj">
   <div class="container">
-    <a class="navbar-brand" href="#" id="name">Cosmodente</a>
+    <a class="navbar-brand" href="index.html" id="name">
+      <img src="icon/Brandlogo.png" width="60px"  alt="">
+      Cosmodente</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#" id="name1">Home</a>
+          <a class="nav-link active" aria-current="page" href="index.html" id="name1">Home</a>
         </li>
         <li class="nav-item" >
           <a class="nav-link" href="about.html" id="name1">About Us</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="#" id="name1">Dental Service</a>
+          <a class="nav-link" href="service.html" id="name1">Dental Service</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" id="name1">Gallery</a>
+          <a class="nav-link" href="gallery.html" id="name1">Gallery</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" id="name1">Contact Us</a>
+          <a class="nav-link" href="contact.html" id="name1">Contact Us</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="#" id="name1">Appointment</a>
+          <a class="nav-link" href="#" id="appointment-btn">Appointment</a>
         </li>
     
+
+
       </ul>
     </div>
   </div>
@@ -128,16 +182,16 @@
         <div class="slides">
             <div class="slide">
                 <div class="slide-data">
-                    <span class="tittle-tag">Care For Your Lifetime</span>
+                    <span class="tittle-tag" >Care For Your Lifetime</span>
                     <h1>Let Us Brighten Your Smile</h1>
-        <a href="#" class="primary-btn2">Appointment</a>
+        <a href="contact.html" class="primary-btn2">Appointment</a>
                 </div>
             </div>
             <div class="slide">
                 <div class="slide-data">
                 <span class="tittle-tag">Committed To Excellence</span>
                     <h1>Personalized & Comfortable</h1>
-                    <a href="#" class="primary-btn2">Appointment</a>
+                    <a href="contact.html" class="primary-btn2">Appointment</a>
 
                 </div>
             </div>
@@ -146,7 +200,7 @@
                 <span class="tittle-tag">Care For Smile</span>
                     <h1>Committed To Dentist Dental</h1>
                   
-                    <a href="#" class="primary-btn2">Appointment</a>
+                    <a href="contact.html" class="primary-btn2">Appointment</a>
 
                 </div>
             </div>
@@ -173,16 +227,18 @@
   
           <div class="boxx col-sm-3 col-md-3 col-12">
             <div class="feaure-bx">
+              <span  id="nick">01</span>
               <h1>New Technology</h1>
-              <p>dental materials are the used new Technology system</p>
+              <p>Modern tool such Dental Technologies & Robotics Teeth Whitening with LED light</p>
             </div>
           </div>
           
           <div class="boxx1 col-sm-3 col-md-3 col-12">
 
             <div class="feaure-bx">
+             <span  id="nick">02</span>
               <h1>Affodable Price</h1>
-              <p>dental materials are the used new Technology system</p>
+              <p>Affordable Dental Care is all you need if you are looking for Affordable Dental treatments</p>
             </div>
 
 
@@ -191,8 +247,9 @@
           <div class="boxx2 col-sm-3 col-md-3 col-12">
     
             <div class="feaure-bx">
+              <span  id="nick">03</span>
               <h1>Professional staff</h1>
-              <p>dental materials are the used new Technology system</p>
+              <p>Every Dental clinic contains several team members who work collectively toward a single Goal</p>
             </div>
 
 
@@ -202,8 +259,9 @@
           <div class="boxx3 col-sm-3 col-md-3 col-12">
 
             <div class="feaure-bx">
-              <h1>Certifield Dental</h1>
-              <p>dental materials are the used new Technology system</p>
+              <span  id="nick">04</span>
+              <h1>CertiField Dental</h1>
+              <p>BDS From KD Dental Clinical Cosmetology And Trichology From Greifswald University Germany.</p>
             </div>
           </div>
 
@@ -221,7 +279,7 @@
       <div class=" row">
         <div class="box-service col-sm-3 col-lg-3 col-12">
   
-          <div class="service-folder">
+          <div class="service-folder" >
             <div class="service--Img">
               <div class="service-afters">
                 <img src="icon/forehead (2).png" alt="">
@@ -242,7 +300,7 @@
         <div class="box-service col-sm-3 col-lg-3 col-12">
         
           
-          <div class="service-folder">
+          <div class="service-folder" >
             <div class="service--Img1">
               <div class="service-afters">
                 <img src="icon/canal .png" alt="">
@@ -277,29 +335,36 @@
         </div>
         <div class=" col-sm-3 col-lg-3 col-12">
      <!--Time table  -->
-     <div class="time-table">
+     <div class="time-table" >
      <div class="time-table-text">
        <h3>WORKING HOURS</h3>
      </div>
-     <div class="time-ourderlist">
+
+    <div class="table-timing">
+
+     <strong> Monday</strong><span class="times">8.00AM-9.00PM</span>
+
+     <strong>Tuesday</strong><span class="times">8.00AM-9.00PM</span>
+     <strong>Wednes</strong><span class="times">8.00AM-9.00PM</span>
+     <strong>Thursday</strong><span class="times">8.00AM-9.00PM</span>
+     <strong>Friday</strong><span class="times">8.00AM-9.00PM</span>
+     <strong>Saturday</strong><span class="times">8.00AM-9.00PM</span>
+
+     <strong>Sunday</strong><span class="times">closed</span>
+
        
-        
-      <li><strong>Monday</strong>  8:00 AM – 2:30 PM</li>
+    </div>
 
-      <li><strong>Tuesday</strong>  8:00 AM – 2:30 PM</li>
-      <li><strong>Wednesday</strong>  8:00 AM – 2:30 PM</li>
 
-      <li><strong>Thursday</strong>  8:00 AM – 2:30 PM</li>
-      <li><strong>Thursday</strong>  8:00 AM – 2:30 PM</li>
 
-      <li><strong>Saturday</strong>  8:00 AM – 2:30 PM</li>
-      <li><strong>Saturday</strong>  8:00 AM – 2:30 PM</li>
-         </table> 
-     </div>
+
+
     
-     </div>
-    
-        </div>
+  
+
+
+     
+       
       </div>
   
 
@@ -529,7 +594,7 @@
   </div><!-- end -->
   
   <div class=" col-sm-4 col-lg-4 col-12">
-  <a href="#" class="primary-btn1 ">Appointment</a>
+  <a href="contact.html" class="primary-btn1 ">Appointment</a>
   </div><!-- end -->
   
   </div>
@@ -587,107 +652,118 @@
 
  <!--  ===--= Contact Form section ==== -->
 
- <div class="contact-wrap">
- <!--  <div class="contact-in">
-    <h1>Contact Info</h1>
-    <h2><i class="fa fa-phone" aria-hidden="true"></i> Phone</h2>
-    <p>123-456-789</p>
-    <h2><i class="fa fa-envelope" aria-hidden="true"></i> Email</h2>
-    <p>info@democompany.com</p>
-    <h2><i class="fa fa-map-marker" aria-hidden="true"></i> Address</h2>
-    <p>Vasant Vihar, Delhi, India</p>
-    <ul>
-      <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-      <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-      <li><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
-      <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-    </ul>
-  </div> -->
-  <div class="contact-in">
-    <h1>Appointment Form:</h1>
-    <form>
-      <input type="text" placeholder="Full Name" class="contact-in-input">
-      <input type="text" placeholder="Email" class="contact-in-input">
-      <input type="text" placeholder="Subject" class="contact-in-input">
-      <textarea placeholder="Message" class="contact-in-textarea"></textarea>
-      <input type="submit" value="SUBMIT" class="contact-in-btn">
-    </form>
-  </div>
-  <div class="contact-in">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.83923192776!2d77.06889754725782!3d28.52758200617607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1601968196548!5m2!1sen!2sin" width="100%" height="auto" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  <section class="contact-form">
+
+    <div class=" container">
+      <div class="row">
+ 
+         <div class="col-sm-6 col-lg-6 col-12">
+
+
+          <div class="Contact__form__info">
+            <div class="contact__information1">
+            <h3>Get A Appointment</h3>
+            <p>Complete control over products allows us to ensure our customers receive the best quality prices and service. Your email address will not be published.</p>
+          </div> 
+ 
+  
+        <form action="index.html" method="post" autocomplete="false">
+          <input class="input__name" type="text" name="name" placeholder="First Name :" required>
+ 
+          <input class="input__name" type="text" name="lname" placeholder="Last Name :" required> 
+ 
+          <input class="input__name" type="date" name="email" required>
+ 
+          <input class="input__name" type="phone" name="phone-call" placeholder="Phone No :" required> 
+ 
+          <br>
+ 
+          <button name="submit" class="submit">Send Message</button>
+        </form>
+ 
+ 
+ 
+       </div>
+ 
+
+
+
+
+
+         </div>
+         
+         <div class=" col-sm-6 col-lg-6 col-12">google map</div>
+
+      </div>
+    </div>
+
+
+
+
+  </section>
+
+  <footer class="footer-section">
+
+<div class="container">
+
+  <div class="footer-content">
+    <div class="col-sm-8 col-lg-8 col-12" id="footers">
+    <h1>Cosmodente Dental Clinic</h1>
+    <p>Bds Pg DCC PgDMT Owner And Operator At Cosmodentè Dental And Cosmetic Clinic Working Since 2017 With Experience Of 5yrs Providing Best Treatments For Skin Hair Laser Cosmetic And Dental Procedures</p>
   </div>
 </div>
 
+  </footer>
+<div class="copyright-tag">
+
+  Copyright By Developer No: <strong class="tagss">9689008559</strong> 2022.All Rights Reserved
+
+</div>
 
 <!-- ====== Footer ===== -->
-
-
-  
-<footer class="footer-distributed">
-
-  <div class="footer-left">
-      <h3>Dhiraj<span>Developer</span></h3>
-
-      <p class="footer-links">
-          <a href="#">Home</a>
-          |
-          <a href="#">About</a>
-          |
-          <a href="#">Contact</a>
-          |
-          <a href="#">Blog</a>
-      </p>
-
-      <p class="footer-company-name">Copyright © 2021 <strong>SagarDeveloper</strong> All rights reserved</p>
-  </div>
-
-  <div class="footer-center">
-      <div>
-          <i class="fa fa-map-marker"></i>
-          <p><span>Delhi</span>
-              </p>
-      </div>
-
-      <div>
-          <i class="fa fa-phone"></i>
-          <p>+91 8448332050</p>
-      </div>
-      <div>
-          <i class="fa fa-envelope"></i>
-          <p><a href="mailto:dhirajsathe2014@gmail.com">
-Sunnyminglani@Gmail.Com</a></p>
-      </div>
-  </div>
-  <div class="footer-right">
-      <p class="footer-company-about">
-          <span>About the Dental</span>
-          <strong> Bds Pg DCC PgDMT owner</strong>  Bds Pg DCC PgDMT owner and operator at Cosmodentè dental and Cosmetic Clinic working since 2017 with experience of 5yrs providing best treatments for skin hair laser cosmetic and dental procedures
-      </p>
-      <div class="footer-icons">
-          <a href="#"><i class="fa fa-facebook"></i></a>
-          <a href="#"><i class="fa fa-instagram"></i></a>
-          <a href="#"><i class="fa fa-linkedin"></i></a>
-          <a href="#"><i class="fa fa-twitter"></i></a>
-          <a href="#"><i class="fa fa-youtube"></i></a>
-      </div>
-  </div>
-</footer>
-
-
-
-
-
-
-
 
 
  
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>  
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="js/main.js"></script>
 <script src="js/slider.js"></script>
 <script src="js/script.js"></script>
+
+
+
+
+
+<script>
+
+
+const Topbar = document.querySelector(".to-top");
+
+window.addEventListener("scroll" , () => {
+
+ if (window.pageYOffset > 100 ) {
+ Topbar.classList.add("active");
+ }
+
+ else
+ {
+
+ Topbar.classList.remove("active");
+
+ }
+
+
+})
+
+</script>
+
+
+<script>
+  AOS.init();
+</script>
 
 </body>
 </html>
